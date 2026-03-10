@@ -3,11 +3,7 @@ body{
     margin:0;
     padding:0;
 
-    background-image: url("https://images.unsplash.com/photo-1554224155-6726b3ff858f");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+   background:red;
 }
 
 /* Main container */
@@ -72,3 +68,4 @@ li{
     font-weight:bold;
     text-align:center;
 }
+
