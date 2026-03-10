@@ -1,11 +1,7 @@
 body{
 font-family: Arial, sans-serif;
 background:body{
-    background-image: url("https://images.unsplash.com/photo-1554224155-6726b3ff858f");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background:pink
 
 };
 margin:0;
@@ -79,4 +75,5 @@ font-size:20px;
 margin-top:15px;
 
 }
+
 
