@@ -3,7 +3,7 @@ body{
     margin:0;
     padding:0;
 
-   background:pink;
+   background:skyblue;
 }
 
 /* Main container */
@@ -68,6 +68,7 @@ li{
     font-weight:bold;
     text-align:center;
 }
+
 
 
 
