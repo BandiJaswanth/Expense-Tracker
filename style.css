@@ -1,6 +1,12 @@
 body{
 font-family: Arial, sans-serif;
-background: brown;
+background: body{
+    background-image: url("https://images.unsplash.com/photo-1508780709619-79562169bc64");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+};
 margin:0;
 padding:0;
 text-align:center;
@@ -70,4 +76,5 @@ background:#f5f5f5;
 color:white;
 font-size:20px;
 margin-top:15px;
+
 }
