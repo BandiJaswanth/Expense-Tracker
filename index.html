@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Expense Tracker</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Expense Tracker</h1>
+
+<div class="form">
+
+<input type="text" id="category" placeholder="Category">
+
+<input type="number" id="amount" placeholder="Amount">
+
+<input type="date" id="date">
+
+<button onclick="addExpense()">Add Expense</button>
+
+</div>
+
+<h2>Expense List</h2>
+
+<input type="text" id="search" placeholder="Search by Category" onkeyup="searchExpense()">
+
+<table>
+
+<thead>
+
+<tr>
+<th>Date</th>
+<th>Category</th>
+<th>Amount</th>
+<th>Delete</th>
+</tr>
+
+</thead>
+
+<tbody id="expenseTable">
+
+</tbody>
+
+</table>
+
+<h3 id="total">Total: 0</h3>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
